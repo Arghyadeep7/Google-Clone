@@ -1,0 +1,174 @@
+
+/* COMMON CSS PROPERTY */
+
+body{
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    font-size: 27px;
+}
+ul{
+    width: 400px;
+    padding: 10px;
+    position: relative;
+    left: 900px;
+    list-style: none;
+    margin: 0;
+}
+.a{
+    background-color:yellow;
+}
+.b{
+    background-color:red;
+}
+.c{
+    background-color:blue;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    letter-spacing: 2px;
+    margin: 0;
+}
+.space{
+    height: 10px;
+    margin: 0;
+}
+nav li a:hover{
+    transition: all ease;
+    background-color: rgb(248, 246, 246);
+    color: red;
+}
+nav li a:active{
+    color:blue;
+}
+
+/*END OF COMMON CSS PROPERTY */
+
+/* CSS PROPERRTY COMMON TO search AND img-search */
+
+.text{
+    width: 43%;
+    padding: 13px;
+    border-radius: 35px;
+    margin: 30px;
+    font-size: 25px;
+    border: none;
+    background-color:rgb(250, 242, 242);
+}
+.text:hover{
+    transition: all ease;
+    background-color:whitesmoke;
+    cursor: auto;
+}
+.glogo{
+    height: 30%;
+    width: 30%;
+}
+
+/* END OF CSS PROPERRTY COMMON TO search AND img-search */
+
+/* CSS PROPERTY OF search */
+
+.sub1{
+    padding: 10px;
+    width: 15%;
+    font-size: 20px;
+    border-radius:5px;
+    position: absolute;
+    left: 445px;
+    border: none;
+    background-color:rgb(233, 225, 225);
+}
+.sub1:hover{
+    transition: all ease;
+    color: black;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.sub2{
+    padding: 10px;
+    width: 20%;
+    font-size: 20px;
+    border-radius:5px;
+    position: absolute;
+    left: 660px;
+    border: none;
+    background-color:rgb(233, 225, 225);
+}
+.sub2:hover{
+    transition: all ease;
+    color: black;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+/* End Of CSS PROPERTY OF search */
+
+/* CSS PROPERTY Of adv-search */
+
+label{
+    position: absolute;
+    left: 40px;
+    font-size:19px;
+}
+span{
+    position: absolute;
+    left: 705px;
+    font-size: 19px;
+}
+div{
+    height:40px;
+}
+.head{
+    font-size: 30px;
+}
+.i1{
+    position: absolute;
+    left: 280px;
+    width: 400px;
+    height: 25px;
+    border-radius: 4px;
+}
+.sub3{
+    padding: 10px;
+    width: 20%;
+    font-size: 20px;
+    border-radius:2px;
+    position: absolute;
+    left: 540px;
+    border: none;
+    background-color:rgb(43, 43, 235);
+    color: white;
+}
+.sub3:hover{
+    transition: all ease;
+    background-color: rgb(40, 40, 210);
+}
+
+/* End Of CSS PROPERTY Of adv-search */
+
+/* CSS PROPERTY OF img-search */
+
+.sub4{
+    padding: 10px;
+    width: 20%;
+    font-size: 20px;
+    border-radius:5px;
+    position: absolute;
+    border: none;
+    left: 540px;
+    background-color:rgb(233, 225, 225);
+}
+.sub4:hover{
+    transition: all ease;
+    color: black;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+/* End Of CSS PROPERTY OF img-search */
